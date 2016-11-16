@@ -32,6 +32,9 @@ class NameService {
     if ((firstName.trim() == 'Gabby') || (firstName.trim() == 'gabby')) {
       return '$firstName the Flabby';
     }
+    if ((firstName.trim() == 'Gabrielle') || (firstName.trim() == 'gabrielle')) {
+      return '$firstName the Flabrielle';
+    }
 
     if (firstName == null || firstName.trim().isEmpty) {
       firstName = _randomFirstName();
