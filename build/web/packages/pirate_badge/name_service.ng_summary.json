@@ -1,0 +1,61 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "dart:convert",
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:math",
+        "2": [
+          "Random"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "NameService",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ]
+      }
+    ],
+    "6": "name_service.dart"
+  },
+  "type": {
+    "_namesPath": {
+      "class": "Identifier",
+      "name": "_namesPath",
+      "moduleUrl": "asset:pirate_badge/lib/name_service.dart",
+      "prefix": null,
+      "value": null
+    },
+    "NameService": {
+      "class": "Type",
+      "name": "NameService",
+      "moduleUrl": "asset:pirate_badge/lib/name_service.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
+}

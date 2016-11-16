@@ -7,7 +7,7 @@ import 'name_service.dart';
     templateUrl: 'badge_component.html',
     styleUrls: const ['badge_component.css'],
     providers: const [NameService])
-class BadgeComponent implements OnInit{
+class BadgeComponent implements OnInit {
   final NameService _nameService;
   String badgeName = '';
   String buttonText = 'Aye! Gimme a name';
@@ -41,10 +41,9 @@ class BadgeComponent implements OnInit{
       buttonText = 'Arrr! Write yer name!';
       isButtonEnabled = false;
     }
-
   }
 
-  void setBadgeName([String newName = '']){
+  void setBadgeName([String newName = '']) {
     if (newName == null) return;
     badgeName = _nameService.getPirateName(newName);
   }
